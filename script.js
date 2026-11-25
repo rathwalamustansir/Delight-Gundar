@@ -1,4 +1,4 @@
-const WA='919428673576',IMG={logo:'images/logo.png',a:'images/dhavda-bowl.jpg',b:'images/dhavda-photo.jpg',c:'images/benefits.jpg'};
+const WA='919428673576',IMG={logo:'/logo.png',a:'/dhavda-bowl.jpg',b:'/dhavda-photo.jpg',c:'/benefits.jpg'};
 const SEED=[{id:'dhavda',name:'Dhavda Gundar',kg:800,imgs:[IMG.a,IMG.b],desc:'Dhavda gundar is a pale, translucent natural gum (edible gond), traditionally fried in ghee until it puffs up and then used in laddoos, winter sweets and warming drinks. Clean, sorted pieces with a light colour.'}];
 const esc=s=>String(s).replace(/[&<>"']/g,c=>'&#'+c.charCodeAt(0)+';'),PD=document.getElementById('pd');
 let RAW;try{RAW=JSON.parse(PD.textContent)}catch(e){}
